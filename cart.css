@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: rgb(72, 70, 70);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 1px;
+    position: sticky;
+    top:0;
+    left:0;
+    
+}
+nav{
+    flex:1;
+    text-align: right;
+    
+}
+.logo{
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 500px;
+    margin-left: 80px;
+}
+
+ li {
+    cursor: pointer;
+    font-size: 20px;
+   display: inline-block; 
+   list-style-type: none;
+   margin-right:50px;
+ }
+ 
+ a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    color:#adf2ed;
+    transition: 0.2s ease;
+}
+/********************************************************************************************************************************
+                                                      Fotter                                           
+ *****************************************************************************************************************************/
+ .ft{
+    background-color: black;
+    color:white;
+    height:263px;
+    padding: 30px;
+    display:flex;
+}
+.fd{
+    margin-right: 210px;
+    margin-left:120px;
+    border-right: 2px solid white;
+}
+.fd h2{
+    margin-bottom: 20px;
+}
+.fd p{
+    font-style: oblique;
+    font-size: 18px;
+    margin-right: 23px;
+}
+.fa{
+    border-right: 2px solid white;
+}
+.fa p{
+    display:list-item;
+    cursor: pointer;
+    margin-right: 262px;
+}
+.follow {
+    margin-left: 140px;
+}
+.follow h2{
+    margin-left: 40px;
+}
+.follow img{
+    margin-top: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.copy{
+    background-color: rgb(72, 72, 72);
+    text-align: center;
+}
+.ta{
+    border-top: 2px solid black;
+    
+}
+.tb{
+    border-top: 2px solid black;
+}
+.cart{
+
+    margin-left: 40px;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}

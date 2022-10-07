@@ -1,0 +1,422 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(72, 70, 70);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 1px;
+    position: sticky;
+    left:0;
+    
+}
+nav{
+    flex:1;
+    text-align: right;
+    
+}
+.logo{
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 500px;
+    margin-left: 80px;
+}
+
+ li {
+    cursor: pointer;
+    font-size: 20px;
+   display: inline-block; 
+   list-style-type: none;
+   margin-right:50px;
+ }
+ 
+ a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    color:#adf2ed;
+    transition: 0.2s ease;
+}
+/****************************************************************************************************************************
+                                        Slider css
+***************************************************************************************************************************/
+
+.slider{
+  width: 1524px;
+  height: 500px;
+  
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 1525px;
+  height: 500px;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  margin-left: 334px;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: white;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+  margin-left: 334px;
+}
+
+.navigation-auto div{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+  
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: white;
+}
+/******************************************************************************************************************************
+
+*********************************************************************************************************************************/
+.trend{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.box{
+    display: flex;
+}
+.box1{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+    border:2px solid black;
+    height: 307px;
+    width: 237px;
+    background-color: #fff;
+}
+.box1 p{
+    margin-top: -19px;
+    margin-left: 23px;
+}
+.box1 h2{
+    margin-left: 46px;
+}
+.box1 button{
+    margin-left: 68px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  .box1:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  
+.box1 button:hover{
+    background-color: rgb(45, 45, 252);
+    color: white;
+}
+/************************************************2nd box****************************************************/
+.box2{
+    transition: transform 0.5s;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    height: 307px;
+    width: 237px;
+    background-color: #fff;
+}
+
+.box2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+.box2 img{
+     margin-left: 2px;
+     margin-top: 12px;
+}
+.box2 p{
+    margin-top: -23px;
+    margin-left: 23px;
+}
+.box2 h2{
+    margin-left: 46px;
+}
+.box2 button{
+    margin-left: 68px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box2 button:hover{
+    background-color: rgb(45, 45, 252);
+    color: white;
+}
+/************************************************3nd box****************************************************/
+.box3{
+    transition: transform 0.5s;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    height: 307px;
+    width: 237px;
+    background-color: #fff;
+}
+
+.box3:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+.box3 img{
+     margin-left: 13px;
+     margin-top: 12px;
+}
+.box3 p{
+    margin-top: -13px;
+    margin-left: 23px;
+}
+.box3 h2{
+    margin-left: 46px;
+}
+.box3 button{
+    margin-left: 68px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box3 button:hover{
+    background-color: rgb(45, 45, 252);
+    color: white;
+}
+/************************************************4rt box****************************************************/
+.box4{
+    transition: transform 0.5s;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    height: 307px;
+    width: 237px;
+    background-color: #fff;
+}
+
+.box4:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+.box4 img{
+     margin-left: 13px;
+     margin-top:3px;
+}
+.box4 p{
+    margin-top: -6px;
+    margin-left: 23px;
+}
+.box4 h2{
+    margin-left: 46px;
+}
+.box4 button{
+    margin-left: 68px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box4 button:hover{
+    background-color: rgb(45, 45, 252);
+    color: white;
+}
+/************************************************5nd box****************************************************/
+.box5{
+    transition: transform 0.5s;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    height: 307px;
+    width: 237px;
+    background-color: #fff;
+}
+
+.box5:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+.box5 img{
+     margin-left: 8px;
+     margin-top: 2px;
+}
+.box5 p{
+    margin-top: -35px;
+    margin-left: 23px;
+}
+.box5 h2{
+    margin-left: 46px;
+}
+.box5 button{
+    margin-left: 68px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box5 button:hover{
+    background-color: rgb(45, 45, 252);
+    color: white;
+}
+/************************************************************************************************************
+                                           Banner
+****************************************************************************************************************/
+.banner{
+    margin-left: 332px;
+    margin-right: 40px;
+}
+/***********************************************************************************************************
+
+*************************************************************************************************************/
+.tv{
+  margin-left: 72px;
+  margin-right: 50px;
+}
+/************************************************************************************************************
+                     Fotter
+**************************************************************************************************************/
+.ft{
+    background-color: black;
+    color:white;
+    height:263px;
+    padding: 30px;
+    display:flex;
+}
+.fd{
+    margin-right: 210px;
+    margin-left:120px;
+    border-right: 2px solid white;
+}
+.fd h2{
+    margin-bottom: 20px;
+}
+.fd p{
+    font-style: oblique;
+    font-size: 18px;
+    margin-right: 23px;
+}
+.fa{
+    border-right: 2px solid white;
+}
+.fa p{
+    display:list-item;
+    cursor: pointer;
+    margin-right: 262px;
+}
+.follow {
+    margin-left: 140px;
+}
+.follow h2{
+    margin-left: 40px;
+}
+.follow img{
+    margin-top: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.copy{
+    background-color: rgb(72, 72, 72);
+    text-align: center;
+}

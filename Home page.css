@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(72, 70, 70);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 1px;
+    position: sticky;
+    top:0;
+    left:0;
+    
+}
+nav{
+    flex:1;
+    text-align: right;
+    
+}
+.logo{
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 500px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+ li {
+    cursor: pointer;
+    font-size: 20px;
+   display: inline-block; 
+   list-style-type: none;
+   margin-right:50px;
+ }
+ 
+ a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    color:#adf2ed;
+    transition: 0.2s ease;
+}
+/*-----------------------------------------------------------------------------
+                                    After Navbar bar                        
+-------------------------------------------------------------------------------*/
+
+.Image{
+
+    display: block;
+    transition: 1s;
+}
+
+.heading{
+    margin-left:80px;
+}
+
+.h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+/****************************************************************************************************************************
+Shoppping items
+****************************************************************************************************************************/
+.shopping{
+    display: flex;
+    margin-left: 40px;
+    cursor: pointer;
+}
+/****************************************************************************************************************************
+Deal of the day
+****************************************************************************************************************************/
+.h1{
+    margin: 15px;
+    flex: 1;
+    display: inline;
+    background-color: blanchedalmond;
+    overflow-x: scroll;
+}
+.h3{
+    margin-left:10px;
+}
+
+.h1 button{
+    float: right;
+    margin-top: -29px;
+    background-color: rgb(70, 70, 240);
+    color: white;
+     margin-right: 10px;
+    padding:10px 10px;
+    
+}
+.h1 button:hover{
+    background:grey;
+    color:black
+}
+
+.tb{
+    margin: 10px;
+    background-color: rgb(234, 226, 226);
+    overflow-x: scroll;
+    opacity: 16.6;
+   height:10 px;
+}
+td img{
+   margin-left: 35px;
+   cursor: pointer;
+}
+.Para{
+    display: flex;
+    margin-left: 45px;
+    
+}
+.td{
+
+    margin: 10px;
+    background-color: rgb(234, 226, 226);
+    overflow-x: scroll;
+    opacity: 16.6;
+   height:10 px;
+}
+
+
+/************************************************************************************************************************
+                                                    Smartphones
+************************************************************************************************************************/
+.heading{
+    margin-left: 0px;
+    display: flex;
+}
+.heading h2
+{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #000000  ;
+}
+.heading button{        
+    margin-left: 1220px;
+    padding: 6px ;
+    font-size: medium;
+    color: white;
+    margin-top: 10px;
+    background-color:rgb(103, 81, 243);
+}
+.heading button:hover{
+    border-color: darkgray;
+	background-color:bisque;
+	color:black;
+	cursor:pointer;
+}
+.Phones{
+    background-color: rgb(200, 190, 190);
+    margin-right: 10px;
+    overflow-x: scroll;
+}
+.phone1{
+    margin-left: 50px;
+}
+
+
+/*******************************************************************************************************************************
+                                               box 
+*********************************************************************************************************************************/
+.box{
+    display: flex;
+    background-color: rgb(197, 204, 201);
+}
+.box1{
+    margin-bottom:3px; /*10px;*/
+    margin-top: -53px;/*20px;*/
+    margin-left: 89px;
+    border:2px solid black;
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    
+}
+.box1:hover{
+    box-shadow: 2px 2px 4px 4px ;
+}
+.box1 h2{
+    margin-left: 40px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+.box1 img{
+    margin-bottom: 35px;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+.boxP{
+    display: flex;
+    margin-left:3rem;
+}
+.boxP p{
+    margin-right: 4rem;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#see{
+    margin-top: 30px;
+    margin-left: 10px;
+   color: blue;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.boxP1{
+    display: flex;
+    margin-left:4rem;
+}
+.boxP1 p{
+    margin-right: 154px;
+    margin-top: -30px;
+    cursor: pointer;
+
+
+}
+
+   /********************************************************************************************************************************
+                                                      back to top                                   
+ *****************************************************************************************************************************/
+.top{
+    background-color: grey;
+    text-align: center;
+}
+
+
+/********************************************************************************************************************************
+                                                      Fotter                                           
+ *****************************************************************************************************************************/
+.ft{
+    background-color: black;
+    color:white;
+    height:263px;
+    padding: 30px;
+    display:flex;
+}
+.fd{
+    margin-right: 210px;
+    margin-left:120px;
+    border-right: 2px solid white;
+}
+.fd h2{
+    margin-bottom: 20px;
+}
+.fd p{
+    font-style: oblique;
+    font-size: 18px;
+    margin-right: 23px;
+}
+.fa{
+    border-right: 2px solid white;
+}
+.fa p{
+    display:list-item;
+    cursor: pointer;
+    margin-right: 262px;
+}
+.follow {
+    margin-left: 140px;
+}
+.follow h2{
+    margin-left: 40px;
+}
+.follow img{
+    margin-top: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.copy{
+    background-color: rgb(72, 72, 72);
+    text-align: center;
+}
+
+.info{
+    background-color:black;
+    text-align: center;
+    display: flex;
+}
+.info p{
+    margin-left: 80px   ;
+    color:white;
+}
+/***************************************************************************************************************
+
+***************************************************************************************************************/
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

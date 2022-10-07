@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+<title>Contact Us</title>
+<link rel="stylesheet" href="contact us.css">
+<title> Contact us</title>
+<head>
+
+</html>
+<body>
+    <style>
+      body{
+    
+        background:rgb(144, 133, 133);
+        }
+    </style>
+    <div class="contaner">
+        <h1>Connect with us</h1>
+        <p>Tell your queries about our site here</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Tell Your queries</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Pratham gagneja">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone number</label>
+                            <input type="number" placeholder="+91 8699971490">
+                        </div>
+                    </div>
+                    <div class="input-row"> 
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="text" placeholder="pratham86999@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Your details">
+                        </div>
+                    </div>
+                    <label>Message</label>
+                    <textarea rows="8" placeholder="Your text here"></textarea>
+                    <div class="contant">
+                        <button type="submit" class="fm" onclick="openPopup()">SEND</button>
+                        <div class="popup" id="popup">
+                            <img src="Tick.png">
+                            <h2>Thank You!</h2>
+                            <p>We will Contact you soon</p>
+                            <button type="button" >ok</button>
+                        </div>
+                    
+
+                    </div>
+                    
+                </form>
+
+            </div>
+            <div class="contact-right">
+                <h3>Reach us</h3>
+                <table class="t1">
+                    <tr>
+                        <td>Email:-</td>
+                        <td>pratham86999@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:-</td>
+                        <td>+91 8699971490</td>
+                    </tr>
+                    <tr>
+                        <td>Address:-</td>
+                        <td>9 Nai abadi,Abohar,Punjab,INDIA</td>
+                    </tr>
+                </table>
+                
+
+            </div>
+        </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+    
+
+    
+</body>
+    </html>

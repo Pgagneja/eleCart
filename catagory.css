@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: rgb(72, 70, 70);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 1px;
+    position: sticky;
+    left:0;
+    
+}
+nav{
+    flex:1;
+    text-align: right;
+    
+}
+.logo{
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 500px;
+    margin-left: 80px;
+}
+
+ li {
+    cursor: pointer;
+    font-size: 20px;
+   display: inline-block; 
+   list-style-type: none;
+   margin-right:50px;
+ }
+ 
+ a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    color:#adf2ed;
+    transition: 0.2s ease;
+}
+.banner{
+    cursor: pointer;
+}
+
+/*****************************************************************************************************************************
+                                              Smartphone catagory                                                          
+**************************************************************************************************************************/
+
+.heading{
+    margin-left: 15px;
+    display: flex;
+}
+.heading h2
+{
+   padding: 10px;
+    /*background-color: ;*/
+    color: rgb(3, 0, 4);
+    margin-left: 10px;
+}
+.heading button{        
+    margin-left: 1220px;
+    padding: 11px 15px;
+    font-size: medium;
+    
+}
+
+.Smartphone{
+    background-color: rgb(213, 196, 196);
+
+    
+}
+.Smartphone img{
+    border-radius:50%;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+
+/******************************************************************************************************************************
+
+                                                  Laptops                                                  
+
+******************************************************************************************************************************/
+.laptop{
+    background-color: rgb(235, 223, 223);
+}
+.laptop img{
+    margin-left: 86px;
+    border-radius: 23%;
+}
+
+   /**********************************************************************************************************************************
+                                                 flip box                                   
+*****************************************************************************************************************************************/
+.box{
+    display: flex;
+    background-color: grey;
+}
+.flip-box {
+    width: 324px;
+    height: 366px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: rgb(201, 196, 196);
+  }
+  .flip-box-front img{
+    margin-top: 40px;
+  }
+  .box1{
+    margin-top: 40px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    color: black;
+  }
+  
+  .flip-box-back {
+    color: white;
+    transform: rotateY(180deg);
+  }
+   /********************************************************************************************************************************
+                                                      back to top                                   
+ *****************************************************************************************************************************/
+ .top{
+    background-color: grey;
+    text-align: center;
+}
+
+
+/********************************************************************************************************************************
+                                                      Fotter                                           
+ *****************************************************************************************************************************/
+/********************************************************************************************************************************
+                                                      Fotter                                           
+ *****************************************************************************************************************************/
+ .ft{
+    background-color: black;
+    color:white;
+    height:263px;
+    padding: 30px;
+    display:flex;
+}
+.fd{
+    margin-right: 210px;
+    margin-left:120px;
+    border-right: 2px solid white;
+}
+.fd h2{
+    margin-bottom: 20px;
+}
+.fd p{
+    font-style: oblique;
+    font-size: 18px;
+    margin-right: 23px;
+}
+.fa{
+    border-right: 2px solid white;
+}
+.fa p{
+    display:list-item;
+    cursor: pointer;
+    margin-right: 262px;
+}
+.follow {
+    margin-left: 140px;
+}
+.follow h2{
+    margin-left: 40px;
+}
+.follow img{
+    margin-top: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.copy{
+    background-color: rgb(72, 72, 72);
+    text-align: center;
+}
+
+
+/******************************************************************
+                         Html
+
+
+
+ <div class="flip-box">
+       <div class="flip-box-inner">
+           <div class="flip-box-front">
+              <h2>Front Side</h2>
+            </div>
+           <div class="flip-box-back">
+                   <h2>Back Side</h2>
+            </div>
+      </div>
+    </div>
+
+
+
+                      css
+
+    
+.flip-box {
+    background-color: transparent;
+    width: 350px;
+    height: 250px;
+    border: 4px solid #f1f1f1;
+    perspective: 1000px;
+    margin-left: 260px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility:hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+*************************************************************************************/

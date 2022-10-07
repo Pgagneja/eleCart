@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<title>Demo page</title>
+
+<head>
+</head>
+<body style= "background-color:powderblue";>
+
+<iframe width="450" height="300" src="https://www.youtube.com/embed/XKfgdkcIUxw" title="Introducing iPhone 13 Pro | Apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="956" height="538" src="https://www.youtube.com/embed/Ddlfb-Xxxh8" title="16 Creative and Funniest Indian TV Ads Commercials Part VIII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="956" height="538" src="https://www.youtube.com/embed/uJ-KLqo_jNQ" title="Galaxy S21 FE 5G: Official Introduction Film | Samsung" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+<html>
+

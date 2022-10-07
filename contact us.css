@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 14px;
+}
+.contaner{
+    width: 80%;
+    margin: 50px auto;
+
+}
+h1{
+    margin-bottom: 10px;
+}
+.contaner p{
+    margin-bottom: 40px;
+}
+.contact-box{
+    background: white;
+    display:flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    
+    padding: 40px;
+    background:rgb(77, 77, 235) ;
+    color:white;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:black;
+}
+.contant{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fm{
+    background: rgb(0, 255, 166);
+    width: 100px;
+    border: none;
+    outline: none;
+    color:white;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: 0px 15px 15px 0px grey;
+}
+.contact-left h3{
+    color:blue;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3{
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.t1{
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+.popup{
+    width:400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    left:50%;
+    transform:translate(-50% ,-50%)scale(0.1);
+    text-align:center;
+    padding: 0px 30px 30px;
+    color:#333;
+    visibility: hidden;
+    transition: transform 10s,top 5;
+  }
+  .open-popup{
+    transition: transform 10s,top 5;
+    visibility: visible;
+    top: 50%;  
+    transform:translate(-50%,-50%)scale(1);
+
+  }
+  .popup img{
+    width:76px;
+    margin-top: -15%;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  .popup h2{
+    font-size: 38px;
+    font-weight:500px ;
+    margin: 30px 0 10px;
+  }
+  .popup button{
+    width: 100%;
+    margin-top: 30px;
+    padding:10px 0 ;
+    background-color: #6fd649;
+    color:#fff;
+    border:0;
+    outline:none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
